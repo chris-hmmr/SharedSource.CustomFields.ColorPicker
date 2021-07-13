@@ -1,0 +1,91 @@
+<project site="sc910-dev-chuemmer-sc" format="Zip Package" targetfilefolder="wwwroot">
+  <Metadata>
+    <metadata>
+      <PackageName>ColorPicker_SC10.1.1</PackageName>
+      <Author>Alex Shyba</Author>
+      <Version>1.1</Version>
+      <Revision />
+      <License />
+      <Comment>Updated source code to meet Sitecore 10.1.1 pre-requisites.
+1. Updated to .NET Framework 4.8
+2. Referenced Sitecore 10.1.1 assemblies in solution project to recompile code</Comment>
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/system/Field types/Simple Types/Color Picker/{B210220E-CBFE-476D-9B64-882BE245739F}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/Simple Types/Color Picker/Menu/{126E4425-D700-4079-AF0B-4616473C1710}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/Simple Types/Color Picker/Menu/Set Color/{C8EAC139-1469-47EC-96A1-716C9CA1D9F0}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/Simple Types/Color Picker/Menu/Clear/{9959E720-A88A-4B66-9276-392C51ED58E0}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Sitecore.SharedSource.CustomFields.ColorPicker.config</x-item>
+        <x-item>/sitecore modules/Shell/Sitecore.SharedSource.CustomFields.ColorPicker</x-item>
+        <x-item>/sitecore modules/Shell/Sitecore.SharedSource.CustomFields.ColorPicker/ColorPicker.aspx</x-item>
+        <x-item>/sitecore modules/Shell/Sitecore.SharedSource.CustomFields.ColorPicker/images</x-item>
+        <x-item>/sitecore modules/Shell/Sitecore.SharedSource.CustomFields.ColorPicker/images/slider</x-item>
+        <x-item>/sitecore modules/Shell/Sitecore.SharedSource.CustomFields.ColorPicker/images/slider/static.png</x-item>
+        <x-item>/sitecore modules/Shell/Sitecore.SharedSource.CustomFields.ColorPicker/images/checker.png</x-item>
+        <x-item>/sitecore modules/Shell/Sitecore.SharedSource.CustomFields.ColorPicker/images/crosshair.gif</x-item>
+        <x-item>/sitecore modules/Shell/Sitecore.SharedSource.CustomFields.ColorPicker/images/hue.png</x-item>
+        <x-item>/sitecore modules/Shell/Sitecore.SharedSource.CustomFields.ColorPicker/images/saturation.png</x-item>
+        <x-item>/sitecore modules/Shell/Sitecore.SharedSource.CustomFields.ColorPicker/ColorPicker.xaml.xml</x-item>
+        <x-item>/sitecore modules/Shell/Sitecore.SharedSource.CustomFields.ColorPicker/style.css</x-item>
+        <x-item>/bin/Sitecore.SharedSource.CustomFields.ColorPicker.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

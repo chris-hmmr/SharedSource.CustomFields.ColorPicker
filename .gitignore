@@ -1,0 +1,10 @@
+﻿.vs/Sitecore.SharedSource.CustomFields.ColorPicker/v16/.suo
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+*.suo
+*.dll
+bin
+obj
+packages
